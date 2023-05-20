@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,100&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+$primary-background:rgb(80,80,80);
+
+
+body{
+    height:500vh;
+    background: $primary-background;
+    font-family: "Lato",sans-serif;
+    color:white;
+}
