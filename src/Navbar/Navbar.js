@@ -28,16 +28,16 @@ const Navbar = () => {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-link-items" onClick={handleCloseMobileMenu}>
-                        <a href="/" className="nav-link">Home</a>
+                        <a href="#home" className="nav-link">Home</a>
                     </li>
                     <li className="nav-link-items" onClick={handleCloseMobileMenu}>
-                        <a href="/" className="nav-link">About</a>
+                        <a href="#about" className="nav-link">About</a>
                     </li>
                     <li className="nav-link-items" onClick={handleCloseMobileMenu}>
-                        <a href="/" className="nav-link">Portfolio</a>
+                        <a href="#portfolio" className="nav-link">Portfolio</a>
                     </li>
                     <li className="nav-link-items" onClick={handleCloseMobileMenu}>
-                        <a href="/" className="nav-link">Contact</a>
+                        <a href="#contact" className="nav-link">Contact</a>
                     </li>
                 </ul>
             </nav>
